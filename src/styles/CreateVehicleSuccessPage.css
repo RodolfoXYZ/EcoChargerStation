@@ -1,0 +1,15 @@
+.create-success-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .create-success-message {
+    font-size: 15px;
+    font-weight: bold;
+    color: #0154FA;
+  }
+  

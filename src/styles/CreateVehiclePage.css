@@ -1,0 +1,81 @@
+.add-vehicle-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 80px;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.header-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.selector-container {
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+}
+
+.selector-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  position: absolute;
+  font-size: 10px;
+  top: 5px;
+  left: 15px;
+  color: #0000004D;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+
+.info-containers {
+  width: 100%;
+  max-width: 400px;
+}
+
+.info-box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height: 51px;
+}
+
+.info-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  position: absolute;
+  font-size: 10px;
+  top: 5px;
+  left: 15px;
+  color: #0000004D;
+}
+
+.info-content {
+  margin-top: 20px;
+  font-size: 16px;
+  color: black;
+  text-align: left;
+  margin-left: 15px;
+}

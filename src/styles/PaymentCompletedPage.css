@@ -1,0 +1,29 @@
+.payment-completed-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .payment-completed-title {
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+  }
+
+  .payment-completed-message {
+    font-size: 20px;
+    font-weight: 300;
+    color:black;
+    margin-top: -10px;
+  }
+  
+  .success-icon {
+    color: green;
+    font-size: 100px;
+    margin-bottom: 20px;
+    width: 75px;
+    margin-top: 10px;
+  }

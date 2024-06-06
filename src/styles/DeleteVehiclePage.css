@@ -1,0 +1,35 @@
+.delete-vehicle-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .delete-vehicle-message {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .delete-buttons{
+    display: flex;
+    gap: 20px;
+  }
+
+  .generic-button{
+    height: 47px;
+    width: 115px;
+    outline: none;
+    transition: 0.3s;
+  }
+
+  .generic-button:focus{
+    outline: none;
+  }
+
+  .generic-button:hover{
+    background-color: #0047FF;
+    color: white;
+  }
